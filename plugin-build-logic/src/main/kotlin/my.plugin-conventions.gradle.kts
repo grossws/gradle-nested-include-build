@@ -6,6 +6,8 @@ plugins {
 }
 
 dependencies {
+  implementation(gradleKotlinDsl())
+
   implementation(kotlin("stdlib-jdk8"))
   implementation(kotlin("reflect"))
 }
